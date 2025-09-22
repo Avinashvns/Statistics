@@ -1,5 +1,6 @@
 
 import numpy as np
+from scipy import stats
 
 # Mean of the age value
 age= [28,56,35,28,76,89]
@@ -13,3 +14,7 @@ print(np.median(classes_even))
 # Median of the even classes
 classes_odd=[5,4,9,2,8,6,10]
 print(np.median(classes_odd))
+
+# Mode of the numbers
+numbers= [1,5,3,6,9,5,2]
+print(stats.mode(numbers))
